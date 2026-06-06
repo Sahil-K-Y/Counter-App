@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <main class="app">
+        <div class="first">
+            <h1 id="counter">Counter</h1>
+            <div id="value">0</div>
+            <div class="buttons">
+                <div class="layer1">
+                    <button id="increase" onclick="inc()">+</button>
+                    <button id="reset" onclick="reset()">0</button>
+                    <button id="decrease" onclick="dec()">-</button>
+                </div>
+                <div class="layer2">
+                    <button id="save" onclick="save()">Save</button>
+                    <button id="load" onclick="load()">Load</button>
+                </div>
+            </div>
+        </div>
+        <div class="history">
+            <h2>History</h2>
+            <div id="history"></div>
+        </div>
+    </main>
+</body>
+
+</html>
